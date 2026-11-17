@@ -1,0 +1,1 @@
+signal_time_broker,entry_time_broker,exit_time_broker,direction,signal_close,prior_20_high,prior_20_low,intended_entry,actual_entry,entry_spread_pips,stop_price,target_price,actual_exit,exit_reason,exit_spread_pips,commission_pips,slippage_pips,pnl_pips,pnl_r,hold_minutes,completed,rule_compliant,broker_reference,notes

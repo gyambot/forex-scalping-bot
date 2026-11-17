@@ -1,0 +1,30 @@
+{
+  "strategy": "Breakout Scalping V1",
+  "instrument": "EURUSD",
+  "timeframe": "M5",
+  "parameters": {
+    "lookback_bars": 20,
+    "stop_loss_pips": 10.0,
+    "take_profit_r": 2.0,
+    "spread_pips": 1.0,
+    "pip_size": 0.0001
+  },
+  "data": {
+    "first_bar_utc": "2025-01-01T22:05:00Z",
+    "last_bar_utc": "2025-12-31T21:50:00Z",
+    "bar_count": 73683
+  },
+  "performance": {
+    "net_profit_pips": -3261.4,
+    "profit_factor": 0.7982,
+    "expectancy_pips": -1.4431,
+    "expectancy_r": -0.1443,
+    "win_rate_pct": 28.5841,
+    "max_drawdown_pips": 3285.3,
+    "avg_trade_pips": -1.4431,
+    "avg_hold_minutes": 123.6549,
+    "trades_per_day": 7.2436,
+    "trade_count": 2260,
+    "active_data_days": 312
+  }
+}

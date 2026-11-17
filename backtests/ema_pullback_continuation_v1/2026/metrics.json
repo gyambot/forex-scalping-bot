@@ -1,0 +1,25 @@
+{
+  "strategy": "EMA Pullback Continuation V1 research candidate",
+  "input": "data\\eurusd_m5_2026_01_10.csv",
+  "input_sha256": "2aefb1e45fd05eb6d88deb6689dfebc5057ce4048f7e8de623a27df657b0d25a",
+  "bars": 60551,
+  "first_bar": "2026-01-01T22:05:00+00:00",
+  "last_bar": "2026-10-30T20:50:00+00:00",
+  "direction_counts": {
+    "short": 1609,
+    "long": 1210
+  },
+  "performance": {
+    "net_profit_pips": -2831.272,
+    "profit_factor": 0.5746,
+    "expectancy_pips": -1.0044,
+    "expectancy_r": -0.4015,
+    "win_rate_pct": 20.0071,
+    "max_drawdown_pips": 2845.772,
+    "avg_trade_pips": -1.0044,
+    "avg_hold_minutes": 21.7843,
+    "trades_per_day": 10.8842,
+    "trade_count": 2819,
+    "active_data_days": 259
+  }
+}

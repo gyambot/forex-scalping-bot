@@ -1,0 +1,42 @@
+{
+  "strategy_version": "Breakout Scalping V1",
+  "account_type": "DEMO",
+  "account_aliases": [],
+  "eligible_trade_count": 0,
+  "excluded_noncompliant_trade_count": 0,
+  "reporting_period_broker_time": null,
+  "metrics": {
+    "trade_count": 0,
+    "win_rate": null,
+    "profit_factor": null,
+    "expectancy": null,
+    "net_profit": 0,
+    "max_drawdown": 0.0,
+    "average_winner": null,
+    "average_loser": null,
+    "average_hold_time": null,
+    "expectancy_r": null
+  },
+  "average_spread_pips": {
+    "entry": null,
+    "entry_observations": 0,
+    "exit": null,
+    "exit_observations": 0,
+    "missing_observations": 0
+  },
+  "metric_units": {
+    "trade_count": "trades",
+    "win_rate": "percent",
+    "profit_factor": "ratio",
+    "expectancy": "pips per trade",
+    "net_profit": "pips",
+    "max_drawdown": "pips (closed-trade)",
+    "average_winner": "pips",
+    "average_loser": "pips",
+    "average_hold_time": "minutes",
+    "expectancy_r": "R per trade"
+  },
+  "drawdown_method": "Peak-to-trough drawdown of cumulative net realized P&L in exit-time order, starting at zero; closed trades only, excludes intratrade equity drawdown.",
+  "pnl_scope": "Net pips after recorded costs; account-currency metrics are not included.",
+  "profit_factor_note": "null means there were no losing trades or no eligible trades"
+}

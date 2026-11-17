@@ -1,0 +1,27 @@
+{
+  "strategy": "Trendline Stochastic V1 research candidate",
+  "input": "data\\eurusd_m5_2025.csv",
+  "input_sha256": "a681d32ba080ab982e868e611c737692daa8a4c8d78fcb5b5bc4a9d098784638",
+  "bars": 73683,
+  "first_bar": "2025-01-01T22:05:00+00:00",
+  "last_bar": "2025-12-31T21:50:00+00:00",
+  "setup_counts": {
+    "breakout": 1289,
+    "bounce": 11
+  },
+  "performance": {
+    "net_profit_pips": -1971.6,
+    "profit_factor": 0.7893,
+    "expectancy_pips": -1.5166,
+    "expectancy_r": -0.1517,
+    "win_rate_pct": 28.4615,
+    "max_drawdown_pips": 2025.5,
+    "avg_trade_pips": -1.5166,
+    "avg_hold_minutes": 150.5692,
+    "trades_per_day": 4.1667,
+    "trade_count": 1300,
+    "active_data_days": 312
+  },
+  "cagr": null,
+  "cagr_reason": "No account equity, compounding or position size is modeled."
+}

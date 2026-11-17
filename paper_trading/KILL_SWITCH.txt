@@ -1,0 +1,2 @@
+Candidate 9 validation is DISABLED. Do not remove this file as part of testing.
+Removal alone does not authorize or enable trading.

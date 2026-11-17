@@ -1,0 +1,300 @@
+{
+  "inputs": {
+    "2025": {
+      "path": "data\\eurusd_m5_2025.csv",
+      "sha256": "a681d32ba080ab982e868e611c737692daa8a4c8d78fcb5b5bc4a9d098784638",
+      "first_bar": "2025-01-01T22:05:00+00:00",
+      "last_bar": "2025-12-31T21:50:00+00:00"
+    },
+    "2026": {
+      "path": "data\\eurusd_m5_2026_01_10.csv",
+      "sha256": "2aefb1e45fd05eb6d88deb6689dfebc5057ce4048f7e8de623a27df657b0d25a",
+      "first_bar": "2026-01-01T22:05:00+00:00",
+      "last_bar": "2026-10-30T20:50:00+00:00"
+    }
+  },
+  "scenarios": {
+    "A": {
+      "assumptions": {
+        "spread_pips": 1,
+        "entry_slippage_pips": 0
+      },
+      "performance": {
+        "2025": {
+          "net_profit_pips": 60.0,
+          "profit_factor": 1.375,
+          "expectancy_pips": 2.2222,
+          "expectancy_r": 0.2222,
+          "win_rate_pct": 40.7407,
+          "max_drawdown_pips": 50.0,
+          "avg_trade_pips": 2.2222,
+          "avg_hold_minutes": 188.1481,
+          "trades_per_day": 0.0865,
+          "trade_count": 27,
+          "active_data_days": 312
+        },
+        "2026": {
+          "net_profit_pips": 140.0,
+          "profit_factor": 1.875,
+          "expectancy_pips": 4.5161,
+          "expectancy_r": 0.4516,
+          "win_rate_pct": 48.3871,
+          "max_drawdown_pips": 40.0,
+          "avg_trade_pips": 4.5161,
+          "avg_hold_minutes": 263.2258,
+          "trades_per_day": 0.1197,
+          "trade_count": 31,
+          "active_data_days": 259
+        },
+        "combined": {
+          "net_profit_pips": 200.0,
+          "profit_factor": 1.625,
+          "expectancy_pips": 3.4483,
+          "expectancy_r": 0.3448,
+          "win_rate_pct": 44.8276,
+          "max_drawdown_pips": 60.0,
+          "avg_trade_pips": 3.4483,
+          "avg_hold_minutes": 228.2759,
+          "trades_per_day": 0.1016,
+          "trade_count": 58,
+          "active_data_days": 571
+        }
+      }
+    },
+    "B": {
+      "assumptions": {
+        "spread_pips": 2,
+        "entry_slippage_pips": 0
+      },
+      "performance": {
+        "2025": {
+          "net_profit_pips": 30.0,
+          "profit_factor": 1.1765,
+          "expectancy_pips": 1.1111,
+          "expectancy_r": 0.1111,
+          "win_rate_pct": 37.037,
+          "max_drawdown_pips": 50.0,
+          "avg_trade_pips": 1.1111,
+          "avg_hold_minutes": 173.1481,
+          "trades_per_day": 0.0865,
+          "trade_count": 27,
+          "active_data_days": 312
+        },
+        "2026": {
+          "net_profit_pips": 140.0,
+          "profit_factor": 1.875,
+          "expectancy_pips": 4.5161,
+          "expectancy_r": 0.4516,
+          "win_rate_pct": 48.3871,
+          "max_drawdown_pips": 40.0,
+          "avg_trade_pips": 4.5161,
+          "avg_hold_minutes": 274.1935,
+          "trades_per_day": 0.1197,
+          "trade_count": 31,
+          "active_data_days": 259
+        },
+        "combined": {
+          "net_profit_pips": 170.0,
+          "profit_factor": 1.5152,
+          "expectancy_pips": 2.931,
+          "expectancy_r": 0.2931,
+          "win_rate_pct": 43.1034,
+          "max_drawdown_pips": 60.0,
+          "avg_trade_pips": 2.931,
+          "avg_hold_minutes": 227.1552,
+          "trades_per_day": 0.1016,
+          "trade_count": 58,
+          "active_data_days": 571
+        }
+      }
+    },
+    "C": {
+      "assumptions": {
+        "spread_pips": 3,
+        "entry_slippage_pips": 0
+      },
+      "performance": {
+        "2025": {
+          "net_profit_pips": 0.0,
+          "profit_factor": 1.0,
+          "expectancy_pips": 0.0,
+          "expectancy_r": 0.0,
+          "win_rate_pct": 33.3333,
+          "max_drawdown_pips": 50.0,
+          "avg_trade_pips": 0.0,
+          "avg_hold_minutes": 157.7778,
+          "trades_per_day": 0.0865,
+          "trade_count": 27,
+          "active_data_days": 312
+        },
+        "2026": {
+          "net_profit_pips": 140.0,
+          "profit_factor": 1.875,
+          "expectancy_pips": 4.5161,
+          "expectancy_r": 0.4516,
+          "win_rate_pct": 48.3871,
+          "max_drawdown_pips": 40.0,
+          "avg_trade_pips": 4.5161,
+          "avg_hold_minutes": 269.8387,
+          "trades_per_day": 0.1197,
+          "trade_count": 31,
+          "active_data_days": 259
+        },
+        "combined": {
+          "net_profit_pips": 140.0,
+          "profit_factor": 1.4118,
+          "expectancy_pips": 2.4138,
+          "expectancy_r": 0.2414,
+          "win_rate_pct": 41.3793,
+          "max_drawdown_pips": 60.0,
+          "avg_trade_pips": 2.4138,
+          "avg_hold_minutes": 217.6724,
+          "trades_per_day": 0.1016,
+          "trade_count": 58,
+          "active_data_days": 571
+        }
+      }
+    },
+    "D": {
+      "assumptions": {
+        "spread_pips": 5,
+        "entry_slippage_pips": 0
+      },
+      "performance": {
+        "2025": {
+          "net_profit_pips": -150.1,
+          "profit_factor": 0.3477,
+          "expectancy_pips": -5.5593,
+          "expectancy_r": -0.5559,
+          "win_rate_pct": 14.8148,
+          "max_drawdown_pips": 150.1,
+          "avg_trade_pips": -5.5593,
+          "avg_hold_minutes": 133.8889,
+          "trades_per_day": 0.0865,
+          "trade_count": 27,
+          "active_data_days": 312
+        },
+        "2026": {
+          "net_profit_pips": 78.4,
+          "profit_factor": 1.4317,
+          "expectancy_pips": 2.529,
+          "expectancy_r": 0.2529,
+          "win_rate_pct": 41.9355,
+          "max_drawdown_pips": 60.0,
+          "avg_trade_pips": 2.529,
+          "avg_hold_minutes": 284.1935,
+          "trades_per_day": 0.1197,
+          "trade_count": 31,
+          "active_data_days": 259
+        },
+        "combined": {
+          "net_profit_pips": -71.7,
+          "profit_factor": 0.8258,
+          "expectancy_pips": -1.2362,
+          "expectancy_r": -0.1236,
+          "win_rate_pct": 29.3103,
+          "max_drawdown_pips": 161.7,
+          "avg_trade_pips": -1.2362,
+          "avg_hold_minutes": 214.2241,
+          "trades_per_day": 0.1016,
+          "trade_count": 58,
+          "active_data_days": 571
+        }
+      }
+    },
+    "E": {
+      "assumptions": {
+        "spread_pips": 2,
+        "entry_slippage_pips": 1
+      },
+      "performance": {
+        "2025": {
+          "net_profit_pips": 0.0,
+          "profit_factor": 1.0,
+          "expectancy_pips": 0.0,
+          "expectancy_r": 0.0,
+          "win_rate_pct": 33.3333,
+          "max_drawdown_pips": 50.0,
+          "avg_trade_pips": 0.0,
+          "avg_hold_minutes": 157.7778,
+          "trades_per_day": 0.0865,
+          "trade_count": 27,
+          "active_data_days": 312
+        },
+        "2026": {
+          "net_profit_pips": 140.0,
+          "profit_factor": 1.875,
+          "expectancy_pips": 4.5161,
+          "expectancy_r": 0.4516,
+          "win_rate_pct": 48.3871,
+          "max_drawdown_pips": 40.0,
+          "avg_trade_pips": 4.5161,
+          "avg_hold_minutes": 269.8387,
+          "trades_per_day": 0.1197,
+          "trade_count": 31,
+          "active_data_days": 259
+        },
+        "combined": {
+          "net_profit_pips": 140.0,
+          "profit_factor": 1.4118,
+          "expectancy_pips": 2.4138,
+          "expectancy_r": 0.2414,
+          "win_rate_pct": 41.3793,
+          "max_drawdown_pips": 60.0,
+          "avg_trade_pips": 2.4138,
+          "avg_hold_minutes": 217.6724,
+          "trades_per_day": 0.1016,
+          "trade_count": 58,
+          "active_data_days": 571
+        }
+      }
+    },
+    "F": {
+      "assumptions": {
+        "spread_pips": 3,
+        "entry_slippage_pips": 1
+      },
+      "performance": {
+        "2025": {
+          "net_profit_pips": -90.0,
+          "profit_factor": 0.5714,
+          "expectancy_pips": -3.3333,
+          "expectancy_r": -0.3333,
+          "win_rate_pct": 22.2222,
+          "max_drawdown_pips": 90.0,
+          "avg_trade_pips": -3.3333,
+          "avg_hold_minutes": 150.9259,
+          "trades_per_day": 0.0865,
+          "trade_count": 27,
+          "active_data_days": 312
+        },
+        "2026": {
+          "net_profit_pips": 109.4,
+          "profit_factor": 1.6413,
+          "expectancy_pips": 3.529,
+          "expectancy_r": 0.3529,
+          "win_rate_pct": 45.1613,
+          "max_drawdown_pips": 60.0,
+          "avg_trade_pips": 3.529,
+          "avg_hold_minutes": 286.7742,
+          "trades_per_day": 0.1197,
+          "trade_count": 31,
+          "active_data_days": 259
+        },
+        "combined": {
+          "net_profit_pips": 19.4,
+          "profit_factor": 1.051,
+          "expectancy_pips": 0.3345,
+          "expectancy_r": 0.0334,
+          "win_rate_pct": 34.4828,
+          "max_drawdown_pips": 100.6,
+          "avg_trade_pips": 0.3345,
+          "avg_hold_minutes": 223.5345,
+          "trades_per_day": 0.1016,
+          "trade_count": 58,
+          "active_data_days": 571
+        }
+      }
+    }
+  }
+}

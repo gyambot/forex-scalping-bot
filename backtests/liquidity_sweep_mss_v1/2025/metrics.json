@@ -1,0 +1,25 @@
+{
+  "strategy": "Liquidity Sweep MSS V1 research candidate",
+  "input": "data\\eurusd_m5_2025.csv",
+  "input_sha256": "a681d32ba080ab982e868e611c737692daa8a4c8d78fcb5b5bc4a9d098784638",
+  "bars": 73683,
+  "first_bar": "2025-01-01T22:05:00+00:00",
+  "last_bar": "2025-12-31T21:50:00+00:00",
+  "direction_counts": {
+    "long": 497,
+    "short": 537
+  },
+  "performance": {
+    "net_profit_pips": -921.8,
+    "profit_factor": 0.8731,
+    "expectancy_pips": -0.8915,
+    "expectancy_r": -0.0891,
+    "win_rate_pct": 30.6576,
+    "max_drawdown_pips": 1021.8,
+    "avg_trade_pips": -0.8915,
+    "avg_hold_minutes": 140.9768,
+    "trades_per_day": 3.3141,
+    "trade_count": 1034,
+    "active_data_days": 312
+  }
+}

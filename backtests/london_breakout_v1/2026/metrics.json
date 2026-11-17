@@ -1,0 +1,53 @@
+{
+  "strategy": "London Session Breakout V1 research candidate",
+  "input": "data\\eurusd_m5_2026_01_10.csv",
+  "input_sha256": "2aefb1e45fd05eb6d88deb6689dfebc5057ce4048f7e8de623a27df657b0d25a",
+  "bars": 60551,
+  "first_bar": "2026-01-01T22:05:00+00:00",
+  "last_bar": "2026-10-30T20:50:00+00:00",
+  "direction_counts": {
+    "short": 347,
+    "long": 253
+  },
+  "performance": {
+    "net_profit_pips": -686.5716,
+    "profit_factor": 0.5388,
+    "expectancy_pips": -1.1443,
+    "expectancy_r": -0.4301,
+    "win_rate_pct": 19.0,
+    "max_drawdown_pips": 686.5716,
+    "avg_trade_pips": -1.1443,
+    "avg_hold_minutes": 14.775,
+    "trades_per_day": 2.3166,
+    "trade_count": 600,
+    "active_data_days": 259
+  },
+  "by_direction": {
+    "long": {
+      "net_profit_pips": -322.7638,
+      "profit_factor": 0.4934,
+      "expectancy_pips": -1.2757,
+      "expectancy_r": -0.4308,
+      "win_rate_pct": 18.9723,
+      "max_drawdown_pips": 327.021,
+      "avg_trade_pips": -1.2757,
+      "avg_hold_minutes": 14.3281,
+      "trades_per_day": 0.9768,
+      "trade_count": 253,
+      "active_data_days": 259
+    },
+    "short": {
+      "net_profit_pips": -363.8078,
+      "profit_factor": 0.5727,
+      "expectancy_pips": -1.0484,
+      "expectancy_r": -0.4296,
+      "win_rate_pct": 19.0202,
+      "max_drawdown_pips": 369.5791,
+      "avg_trade_pips": -1.0484,
+      "avg_hold_minutes": 15.1009,
+      "trades_per_day": 1.3398,
+      "trade_count": 347,
+      "active_data_days": 259
+    }
+  }
+}

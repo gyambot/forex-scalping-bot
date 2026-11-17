@@ -1,0 +1,49 @@
+{
+  "strategy": "bollinger_reentry_v1",
+  "input": "data\\eurusd_m5_2026_01_10.csv",
+  "input_sha256": "2aefb1e45fd05eb6d88deb6689dfebc5057ce4048f7e8de623a27df657b0d25a",
+  "bars": 60551,
+  "first_bar": "2026-01-01T22:05:00+00:00",
+  "last_bar": "2026-10-30T20:50:00+00:00",
+  "performance": {
+    "net_profit_pips": -400.3,
+    "profit_factor": 0.9521,
+    "expectancy_pips": -0.3249,
+    "expectancy_r": -0.0325,
+    "win_rate_pct": 32.3864,
+    "max_drawdown_pips": 870.9,
+    "avg_trade_pips": -0.3249,
+    "avg_hold_minutes": 203.2102,
+    "trades_per_day": 4.7568,
+    "trade_count": 1232,
+    "active_data_days": 259
+  },
+  "by_direction": {
+    "long": {
+      "net_profit_pips": -601.8,
+      "profit_factor": 0.8627,
+      "expectancy_pips": -0.9613,
+      "expectancy_r": -0.0961,
+      "win_rate_pct": 30.1917,
+      "max_drawdown_pips": 799.3,
+      "avg_trade_pips": -0.9613,
+      "avg_hold_minutes": 209.2093,
+      "trades_per_day": 2.417,
+      "trade_count": 626,
+      "active_data_days": 259
+    },
+    "short": {
+      "net_profit_pips": 201.5,
+      "profit_factor": 1.0506,
+      "expectancy_pips": 0.3325,
+      "expectancy_r": 0.0333,
+      "win_rate_pct": 34.6535,
+      "max_drawdown_pips": 320.0,
+      "avg_trade_pips": 0.3325,
+      "avg_hold_minutes": 197.0132,
+      "trades_per_day": 2.3398,
+      "trade_count": 606,
+      "active_data_days": 259
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "strategy": "weekend_gap_fade_v1",
+  "input": "data\\eurusd_m5_2025.csv",
+  "input_sha256": "a681d32ba080ab982e868e611c737692daa8a4c8d78fcb5b5bc4a9d098784638",
+  "bars": 73683,
+  "first_bar": "2025-01-01T22:05:00+00:00",
+  "last_bar": "2025-12-31T21:50:00+00:00",
+  "performance": {
+    "net_profit_pips": 60.0,
+    "profit_factor": 1.375,
+    "expectancy_pips": 2.2222,
+    "expectancy_r": 0.2222,
+    "win_rate_pct": 40.7407,
+    "max_drawdown_pips": 50.0,
+    "avg_trade_pips": 2.2222,
+    "avg_hold_minutes": 188.1481,
+    "trades_per_day": 0.0865,
+    "trade_count": 27,
+    "active_data_days": 312
+  },
+  "by_direction": {
+    "long": {
+      "net_profit_pips": 80.0,
+      "profit_factor": 2.3333,
+      "expectancy_pips": 6.1538,
+      "expectancy_r": 0.6154,
+      "win_rate_pct": 53.8462,
+      "max_drawdown_pips": 30.0,
+      "avg_trade_pips": 6.1538,
+      "avg_hold_minutes": 149.2308,
+      "trades_per_day": 0.0417,
+      "trade_count": 13,
+      "active_data_days": 312
+    },
+    "short": {
+      "net_profit_pips": -20.0,
+      "profit_factor": 0.8,
+      "expectancy_pips": -1.4286,
+      "expectancy_r": -0.1429,
+      "win_rate_pct": 28.5714,
+      "max_drawdown_pips": 60.0,
+      "avg_trade_pips": -1.4286,
+      "avg_hold_minutes": 224.2857,
+      "trades_per_day": 0.0449,
+      "trade_count": 14,
+      "active_data_days": 312
+    }
+  }
+}

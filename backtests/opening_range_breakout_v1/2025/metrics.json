@@ -1,0 +1,49 @@
+{
+  "strategy": "Opening Range Breakout V1",
+  "input": "data\\eurusd_m5_2025.csv",
+  "input_sha256": "a681d32ba080ab982e868e611c737692daa8a4c8d78fcb5b5bc4a9d098784638",
+  "bars": 73683,
+  "first_bar": "2025-01-01T22:05:00+00:00",
+  "last_bar": "2025-12-31T21:50:00+00:00",
+  "performance": {
+    "net_profit_pips": -80.0,
+    "profit_factor": 0.9529,
+    "expectancy_pips": -0.3187,
+    "expectancy_r": -0.0319,
+    "win_rate_pct": 32.2709,
+    "max_drawdown_pips": 150.0,
+    "avg_trade_pips": -0.3187,
+    "avg_hold_minutes": 119.4422,
+    "trades_per_day": 0.8045,
+    "trade_count": 251,
+    "active_data_days": 312
+  },
+  "by_direction": {
+    "long": {
+      "net_profit_pips": -40.0,
+      "profit_factor": 0.9556,
+      "expectancy_pips": -0.3008,
+      "expectancy_r": -0.0301,
+      "win_rate_pct": 32.3308,
+      "max_drawdown_pips": 180.0,
+      "avg_trade_pips": -0.3008,
+      "avg_hold_minutes": 126.6541,
+      "trades_per_day": 0.4263,
+      "trade_count": 133,
+      "active_data_days": 312
+    },
+    "short": {
+      "net_profit_pips": -40.0,
+      "profit_factor": 0.95,
+      "expectancy_pips": -0.339,
+      "expectancy_r": -0.0339,
+      "win_rate_pct": 32.2034,
+      "max_drawdown_pips": 140.0,
+      "avg_trade_pips": -0.339,
+      "avg_hold_minutes": 111.3136,
+      "trades_per_day": 0.3782,
+      "trade_count": 118,
+      "active_data_days": 312
+    }
+  }
+}

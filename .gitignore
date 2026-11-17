@@ -1,0 +1,6 @@
+.env
+paper_trading/.env
+*.local
+paper_trading/MT5_HEALTHCHECK.json
+__pycache__/
+*.py[cod]
